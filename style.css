@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: white;
+    border: 5px;
+    border-radius: 10px;
+    height: 390px;
+    width: 250px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 20px;
+
+}
+.card:hover{
+    background-color: violet;
+    transition: 0.6;
+}
+.btn{
+    background-color: black;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 34px;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(214, 174, 214);
+    color: black;
+}
